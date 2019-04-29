@@ -11,7 +11,6 @@ import scala.concurrent.duration._
 import akka.pattern.ask
 import bloomfilter.mutable.BloomFilter
 
-import java.util.UUID.randomUUID
 
 final case class Message(val msg: String)
 final case class CheckMessage(val msg: String)
